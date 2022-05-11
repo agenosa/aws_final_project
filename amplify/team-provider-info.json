@@ -1,0 +1,33 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-newhotsauce-dev-94213-authRole",
+      "UnauthRoleArn": "arn:aws:iam::853408578194:role/amplify-newhotsauce-dev-94213-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::853408578194:role/amplify-newhotsauce-dev-94213-authRole",
+      "Region": "ca-central-1",
+      "DeploymentBucketName": "amplify-newhotsauce-dev-94213-deployment",
+      "UnauthRoleName": "amplify-newhotsauce-dev-94213-unauthRole",
+      "StackName": "amplify-newhotsauce-dev-94213",
+      "StackId": "arn:aws:cloudformation:ca-central-1:853408578194:stack/amplify-newhotsauce-dev-94213/fb7a3350-cfb6-11ec-a7d3-02b334969792",
+      "AmplifyAppId": "d37xis5oz7xygg",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-newhotsauce-dev-94213-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "newhotsauce": {}
+      },
+      "storage": {
+        "newhotsaucee62af933": {
+          "bucketName": "phophor",
+          "region": "ca-central-1"
+        }
+      },
+      "function": {
+        "newsauceLambda": {
+          "deploymentBucketName": "amplify-newhotsauce-dev-94213-deployment",
+          "s3Key": "amplify-builds/newsauceLambda-6c6a64752f71682b7042-build.zip"
+        }
+      }
+    }
+  }
+}
